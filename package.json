@@ -25,6 +25,7 @@
     "tailwindcss-animate": "^1.0.7"
   },
   "devDependencies": {
+    "chokidar": "^3.6.0",
     "eslint": "^8",
     "eslint-config-next": "14.2.5",
     "postcss": "^8",
