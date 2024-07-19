@@ -6,6 +6,8 @@ import {
   FaFigma,
   FaNodeJs,
   FaHtml5,
+  FaSymfony,
+  FaJava,
 } from "react-icons/fa";
 import { SiTailwindcss, SiNextdotjs } from "react-icons/si";
 
@@ -29,7 +31,7 @@ const about = {
     },
     {
       fieldName: "Skype",
-      fieldValue: "Luke.01",
+      fieldValue: "jlassi.01",
     },
     {
       fieldName: "Nationality",
@@ -37,7 +39,7 @@ const about = {
     },
     {
       fieldName: "Email",
-      fieldValue: "luke.01@gmail.com",
+      fieldValue: "harounjlassi11@gmail.com",
     },
     {
       fieldName: "Freelance",
@@ -54,29 +56,23 @@ const experience = {
   icon: "/assets/resume/badge.svg",
   title: "My experience",
   description:
-    "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusantium minima consequatur, atque distinctio aliquid veritatis dicta exercitationem perferendis voluptas deserunt deleniti quo molestias, laudantium quis odit unde possimus mollitia iusto.",
+    "As a Computer Engineering student, I have gained valuable experience as a Full Stack Developer and Telecommunications Technician at Tac-Tic, Smart-Advising, Smart Skills, and Tunisie Télécom. My academic and practical experiences at Esprit and GOMYCODE have equipped me with a strong foundation. I am eager to apply my skills to real-world challenges and am committed to continuous learning and growth.",
   items: [
     {
-      company: "Tech Solutions Inc.",
+      company: "Tac-Tic & Smart-Advising & Smart Skills ",
       position: "Full Stack Developer",
-      duration: "2022 - Present",
+      duration: "2024 - Present",
     },
-    {
-      company: "Web Design Studio",
-      position: "Front-End Developer Inter",
-      duration: "Summer - 2021",
-    },
-    ,
     {
       company: "E-commerce Startup",
       position: "Freelance Web Developer ",
-      duration: "2020 - 2021",
+      duration: "2022 - 2023",
     },
     ,
     {
-      company: "Tech Academy",
-      position: "Teaching Assistant ",
-      duration: "2019 - 2020",
+      company: "Tunisie Télécom",
+      position: "Telecommunications Technician ",
+      duration: "summer - 2021",
     },
     ,
     {
@@ -84,28 +80,23 @@ const experience = {
       position: "UI/UX Designer ",
       duration: "2018 - 2019",
     },
-    ,
-    {
-      company: "Software Development Firm",
-      position: "Junior Developer ",
-      duration: "2017 - 2018",
-    },
   ],
 };
 const education = {
   icon: "/assets/resume/cap.svg",
   title: "My education",
   description:
-    "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusantium minima consequatur, atque distinctio aliquid veritatis dicta exercitationem perferendis voluptas deserunt deleniti quo molestias, laudantium quis odit unde possimus mollitia iusto.",
+    "Here’s a summary of my educational background, showcasing the various institutions and courses that have shaped my knowledge and skills. From bootcamps to degree programs, each experience has contributed to my development as a professional.",
   items: [
     {
-      institution: "Online Course Platform ",
+      institution: "Udemy",
       position: "Full Stack Development Bootcamp",
       duration: "2023",
     },
+
     {
-      institution: "Codecamey ",
-      position: "Front-end Track",
+      institution: "GOMYCODE  ",
+      position: "Certified Web Developer",
       duration: "2022",
     },
     {
@@ -114,19 +105,9 @@ const education = {
       duration: "2020 - 2021",
     },
     {
-      institution: "Tech  Institute ",
-      position: "Certified Web Developer",
-      duration: "2019",
-    },
-    {
-      institution: "Design School",
-      position: "Diploma in Graphic Design",
-      duration: "2016 - 2018",
-    },
-    {
-      institution: "Commity College ",
-      position: "Associate Degree in Computer Science",
-      duration: "2014 - 2016",
+      institution: "Esprit",
+      position: "Bachelor's degree in Computer Engineering",
+      duration: "2021 - 2025",
     },
   ],
 };
@@ -134,7 +115,8 @@ const education = {
 const skills = {
   title: "My skills",
   description:
-    "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusantium minima consequatur, atque distinctio aliquid veritatis dicta exercitationem perferendis voluptas deserunt deleniti quo molestias, laudantium quis odit unde possimus mollitia iusto.",
+    "Here’s a list of the technologies and tools I’m proficient in. Each skill represents a key area of expertise that I use to build and design web applications, from frontend development to backend programming and design.",
+
   skillList: [
     {
       icon: <FaHtml5 />,
@@ -144,6 +126,7 @@ const skills = {
       icon: <FaCss3 />,
       name: "Css 3",
     },
+
     {
       icon: <FaJs />,
       name: "javascript",
@@ -151,6 +134,14 @@ const skills = {
     {
       icon: <FaReact />,
       name: "react.js",
+    },
+    {
+      icon: <FaSymfony />,
+      name: "Symfony",
+    },
+    {
+      icon: <FaJava />,
+      name: "Java",
     },
     {
       icon: <SiNextdotjs />,

@@ -21,35 +21,48 @@ const projects = [
   {
     num: "01",
     category: "frontend",
-    title: "project 1",
-    description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate magnam modi.",
-    stack: [{ name: "Html 5" }, { name: "Css 3" }, { name: "Javascript" }],
-    image: "/assets/work/thumb1.png",
+    title: " EcoGourmet ",
+    description: "Sustainable Food Surplus Management System",
+    stack: [
+      { name: "Symfony" },
+      { name: "Bootsrtrap" },
+      { name: "Javascript" },
+      { name: "php" },
+    ],
+    image: "/assets/work/ecog.png",
     live: "",
-    github: "",
+    github: "https://github.com/Harounjlassi/EcoGourmetWeb3a22",
   },
   {
     num: "02",
     category: "fullstack",
-    title: "project 2",
-    description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate magnam modi.",
+    title: "Optimized Smart Court Management:",
+    description: "Optimized Smart Court Management",
     stack: [{ name: "Next.js" }, { name: "Tailwind.css" }, { name: "Node.js" }],
-    image: "/assets/work/thumb2.png",
-    live: "",
-    github: "",
+    image: "/assets/work/smartcourt.png",
+    live: "https://github.com/Harounjlassi/Harounjlassi/blob/master/images/smartcourt.gif",
+    github: "https://github.com/Harounjlassi/gestion-des-affaires",
   },
   {
     num: "03",
-    category: "fullstack",
-    title: "project 3",
-    description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate magnam modi.",
+    category: "desktop",
+    title: "EcoGourmet Desktop Project",
+    description: "Sustainable Food Surplus Management System",
     stack: [{ name: "Next.js" }, { name: "Tailwind.css" }],
-    image: "/assets/work/thumb3.png",
+    image: "/assets/work/egogDes.png",
     live: "",
-    github: "",
+    github: "https://github.com/Harounjlassi/EcoGourmetWeb3a22",
+  },
+  {
+    num: "04",
+    category: "desktop",
+    title: "Eco-Surplus Food Mobile App Management Network",
+    description: "Sustainable Food Surplus Management System",
+    stack: [{ name: "Next.js" }, { name: "Tailwind.css" }],
+    image: "/assets/work/flutter.png",
+    live: "https://app.flutterflow.io/project/mobilevff-h2dxo3?tab=pageSelector&page=CreateEvent",
+    github:
+      "https://app.flutterflow.io/project/mobilevff-h2dxo3?tab=pageSelector&page=CreateEvent",
   },
 ];
 
@@ -77,7 +90,7 @@ const Work = () => {
                 {project.num}
               </div>
               <h2 className="text-[42px] font-bold leading-none text-white group-hover:text-accent transition-all duration-500 capitalize">
-                {project.category} project
+                {project.title} project
               </h2>
               {/* project description */}
               <p className="text-white/60">{project.description}</p>

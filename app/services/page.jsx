@@ -5,26 +5,30 @@ import { Description } from "@radix-ui/react-dialog";
 const services = [
   {
     num: "01",
-    title: "Web developper",
-    Description: "jhidsghfiughiohgd odhsifhihfudgsufgudsfgugugds",
+    title: "Web Development",
+    Description:
+      "Creating and maintaining websites, ensuring they are functional, user-friendly, and visually appealing",
     href: "",
   },
   {
     num: "02",
-    title: "UI/UX Design",
-    Description: "jhidsghfiughiohgd odhsifhihfudgsufgudsfgugugds",
+    title: "Cybersecurity",
+    Description:
+      "Implementing measures to protect computer systems and networks from cyber threats and unauthorized access.",
     href: "",
   },
   {
     num: "03",
-    title: "Logo Design",
-    Description: "jhidsghfiughiohgd odhsifhihfudgsufgudsfgugugds",
+    title: "Cloud Services",
+    Description:
+      "Offering cloud computing resources such as storage, processing power, and software applications over the internet.",
     href: "",
   },
   {
     num: "04",
-    title: "SEO",
-    Description: "jhidsghfiughiohgd odhsifhihfudgsufgudsfgugugds",
+    title: "IT Support",
+    Description:
+      "Providing technical assistance and troubleshooting for hardware and software issues, ensuring smooth business operations.",
     href: "",
   },
 ];

@@ -21,7 +21,7 @@ const Photo = () => {
           className="w-[298px] h-[298px] xl:w-[498px] xl:h-[498px] mix-blend-lighten absolute"
         >
           <Image
-            src="/assets/ert.png"
+            src="/assets/ertze.png"
             priority
             quality={100}
             fill
@@ -41,7 +41,7 @@ const Photo = () => {
           cy="253"
           r="250"
           stroke="#CC0001"
-          strokeWidth="4"
+          strokeWidth="5"
           strokeLinejoin="round"
           initial={{ strokeDasharray: "24 10 0 0" }}
           animate={{

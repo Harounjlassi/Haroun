@@ -23,12 +23,12 @@ const info = [
   {
     icon: <FaEnvelope />,
     title: "Email",
-    description: "youremail@gmail.com",
+    description: "harounjlassi11@gmail.com",
   },
   {
     icon: <FaMapMarkerAlt />,
     title: "Address",
-    description: "code Corner, Tech Town 13579",
+    description: "2082 Ben Arous, Tunisa",
   },
 ];
 import { motion } from "framer-motion";
@@ -49,8 +49,9 @@ const Contact = () => {
             <form className="flex flex-col gap-6 p-10 bg-[#27272c] rounded-xl">
               <h3 className="text-4xl text-accent">Lets work together</h3>
               <p className="text-white/60">
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eum
-                nihil sapiente pariatur id totam.
+                I'm here to help with web development, UI/UX design, or logo
+                creation. Let's collaborate to create something amazing—contact
+                me to get started or with any questions!
               </p>
               {/* input */}
               <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
