@@ -21,7 +21,7 @@ const Photo = () => {
           className="w-[298px] h-[298px] xl:w-[498px] xl:h-[498px] mix-blend-lighten absolute"
         >
           <Image
-            src="/assets/ertze.png"
+            src="/assets/ert.png"
             priority
             quality={100}
             fill
@@ -37,11 +37,11 @@ const Photo = () => {
         xmlns="http://www.w3.org/2000/svg"
       >
         <motion.circle
-          cx="253"
-          cy="253"
-          r="250"
+          cx="251"
+          cy="251"
+          r="249"
           stroke="#CC0001"
-          strokeWidth="5"
+          strokeWidth="4"
           strokeLinejoin="round"
           initial={{ strokeDasharray: "24 10 0 0" }}
           animate={{
