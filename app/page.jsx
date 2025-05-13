@@ -17,10 +17,8 @@ const Home = () => {
               <span className="text-accent">Haroun Jlassi</span>
             </h1>
             <p className="max-w-[500] mb-9 text-white/80">
-              I excel at creating polished digital experiences and am proficient
-              <br />
-              in various programming languages and technologies.
-            </p>
+            I am passionate about designing and implementing scalable, secure, <br />and efficient cloud infrastructures and software engineering practices.
+                            </p>
             {/**btn and social */}
             <div className="flex flex-col xl:flex-row items-center gap-8">
               <a href="/assets/resume/cv.pdf" download>
